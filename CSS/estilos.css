@@ -1,6 +1,6 @@
 body
 {
-    color: crimson;
+    color: white;
     text-align: center;
     font-family: "arial";
     background-color: chocolate;
@@ -21,5 +21,24 @@ body
 }
 #cabecera
 {
-    color:blue;
+    background: blue;
+    color: white;
+    box-shadow: 5px 5px 5px;
+    margin: 0em;
+    padding: 1rem;
+    text-align: center;
+
+}
+#cabecera #tagline 
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size:  25px;
+
+}
+#cabecera #titulo
+{
+    font-family: serif;
+    font-size: 50px;
+    color: rgb(26, 5, 1);
 }
